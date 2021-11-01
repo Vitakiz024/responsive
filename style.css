@@ -1,0 +1,47 @@
+* { 
+    margin: 0; 
+    padding: 0;
+} 
+
+html{
+    width: 1440px; 
+    background: #555;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: arial;
+}
+
+.block{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.column1, .column2{
+    width: 50%;
+    height: auto;
+    background: yellow;
+    border: 1px solid #000;
+}
+
+.head .column2{
+    content: url(img/Group10.png);
+    
+}
+
+.block .column1 .content{
+    margin-top: 63px;
+    margin-left: 100px;
+
+}
+
+.title{
+    font-size: 24px;
+    color: #5282F0;
+    
+
+}
+
+.title::before{
+    content: url(img/football.svg);
+}
