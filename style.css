@@ -11,6 +11,11 @@ html{
     font-family: arial;
 }
 
+a{
+    text-decoration: none;
+
+}
+
 .blockFlexColumn{
     display: flex;
     width: 100%;
@@ -81,4 +86,22 @@ html{
 
 .b2 {
     flex-direction: row-reverse;
+    
+}
+
+.b2 .column1, .b2 .column2{
+    background: #fff;
+}
+
+.text h3 {
+    margin-top: 27px;
+    margin-bottom: 27px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.text h5 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 22px;
 }
