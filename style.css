@@ -13,8 +13,9 @@ html{
 
 a{
     text-decoration: none;
-
 }
+
+ /* <------ BLOCK 1 ------> */ 
 
 .blockFlexColumn{
     display: flex;
@@ -22,30 +23,28 @@ a{
     flex-direction: row;
 }
 
-
-
 .column1, .column2{
     width: 50%;
     height: auto;
-    background: #F4F6F9;
+    
+}
 
+.b1 .column1, .b1 .column2{
+    background: #F4F6F9;
 }
 
 .b1 .column2{
     content: url(img/Group.png);
-    
 }
 
 .b1 .column1 .content{
     margin-top: 63px;
     margin-left: 100px;
-
 }
 
 .title{
     font-size: 24px;
     color: #5282F0;   
-
 }
 
 .title::before{
@@ -84,13 +83,20 @@ a{
     content: url(img/googlePlay.png);
 }
 
+ /* <------ BLOCK 2 ------> */ 
+
 .b2 {
     flex-direction: row-reverse;
     
 }
 
-.b2 .column1, .b2 .column2{
+.column1, .column2{
     background: #fff;
+}
+
+.b2 .column1 .content{
+    margin-left: 100px;
+    width: 455px;
 }
 
 .text h3 {
@@ -105,3 +111,53 @@ a{
     font-weight: 400;
     margin-bottom: 22px;
 }
+
+.b2 .column2{
+    background: url("img/Rectangle.png"), linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.9) 15%, rgba(255,255,255,0));
+    height: 592px;
+}
+
+.screans{
+    position: relative;
+}
+
+.screans .screan1, .screans .screan2{
+width: 360px;
+height: 219px;
+position: absolute;
+}
+
+.screans .screan1{
+    content: url(img/screan1.png);
+    top: 110px;
+    left: 163px;
+    z-index: 3;
+}
+
+.screans .screan2{
+    content: url(img/screan2.png);
+    top: 296px;
+    left: 269px;
+    z-index: 2;
+}
+
+ /* <------ BLOCK 3 ------> */ 
+
+ .b3 .column1 .content{
+    margin-top: 217px;
+    margin-left: 162px;
+    width: 495px;
+ }
+
+ .b3 {
+    display: inline-block;
+    background: url(img/b3-Background.png);
+    background-repeat: no-repeat;
+    height: 716px;
+ }
+
+ .b4 {
+    display: inline-block;
+    background: url(img/b4-Background.png);
+    background-repeat: no-repeat;
+ }
