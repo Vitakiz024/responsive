@@ -15,6 +15,10 @@ a{
     text-decoration: none;
 }
 
+.t1, .t2 {
+    color: #00ADEE;
+}
+
  /* <------ BLOCK 1 ------> */ 
 
 .blockFlexColumn{
@@ -92,6 +96,8 @@ a{
 
 .column1, .column2{
     background: #fff;
+    height: inherit;
+    display: inline;
 }
 
 .b2 .column1 .content{
@@ -142,7 +148,9 @@ position: absolute;
 }
 
  /* <------ BLOCK 3 ------> */ 
-
+.b3 .column1{
+    background: rgba(0, 0, 0, 0);
+}
  .b3 .column1 .content{
     margin-top: 217px;
     margin-left: 162px;
@@ -155,9 +163,16 @@ position: absolute;
     background-repeat: no-repeat;
     height: 716px;
  }
+ 
+ .b3 .column1 .content .text .t2{
+    margin-top: 55px;
+}
 
+/*<--  BLOCK 4 -->*/
  .b4 {
-    display: inline-block;
+    display: flex;
     background: url(img/b4-Background.png);
     background-repeat: no-repeat;
+    height: 735px;
+    width: 100%;
  }
