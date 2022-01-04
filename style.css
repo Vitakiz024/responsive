@@ -170,9 +170,64 @@ position: absolute;
 
 /*<--  BLOCK 4 -->*/
  .b4 {
-    display: flex;
     background: url(img/b4-Background.png);
     background-repeat: no-repeat;
     height: 735px;
     width: 100%;
  }
+
+ .b4 h2 {
+    padding-top: 75px;
+    font-size: 37px;
+    color: #fff;
+    text-align: center;
+ }
+.elem-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ .element {
+    padding: 40px;
+    height: 126px;
+    width: 315px;
+}
+
+.element .img1, .element .img2, .element .img3, .element .img4, .element .img5, .element .img6, .element .img7, .element .img8, .element .img9 {
+    height: 40px;
+    width: 40px;
+}
+.element .img1{
+    content: url(img/png1.png);
+}
+
+.element .img2{
+    content: url(img/png2.png);
+}
+.element .img3{
+    content: url(img/png3.png);
+}
+.element .img4{
+    content: url(img/png4.png);
+}
+.element .img5{
+    content: url(img/png5.png);
+}
+.element .img6{
+    content: url(img/png6.png);
+}
+.element .img7{
+    content: url(img/png7.png);
+}
+.element .img8{
+    content: url(img/png8.png);
+}
+.element .img9{
+    content: url(img/png9.png);
+}
+.el-text{
+    font-size: 16px;
+    color: #fff;
+}
